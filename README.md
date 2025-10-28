@@ -1,7 +1,7 @@
 
 <!-- Logo -->
 <p align="center">
-  <img src="docs/logo.png" alt="Bahja Platform Logo" width="180"/>
+  <img src="Users_app/asset/images/bahj.png" alt="Bahja Platform Logo" width="180"/>
 </p>
 
 <h1 align="center">Bahja Platform</h1>
@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <strong>Lead Engineer:</strong> Jamal Al-Awadi  
+  <strong>Lead Engineer:</strong> Jamal Al-Awady  
 </p>
 
 ---
@@ -40,9 +40,9 @@ The Bahja ecosystem is composed of **three Flutter applications**, each with a d
 
 | Application | Description | Platform |
 |--------------|-------------|-----------|
-| **Users App** | For clients to explore services, make bookings, manage invitations, and communicate with providers. | Android / iOS |
-| **Services Providers App** | For vendors to list their services, manage bookings, and handle transactions. | Android / iOS |
-| **Admin App** | Management and moderation panel to control users, providers, and monitor analytics. | Flutter Web / Desktop |
+| **Users App** | For clients to explore services, make bookings, manage invitations, and communicate with providers. | Android |
+| **Services Providers App** | For vendors to list their services, manage bookings, and handle transactions. | Android |
+| **Admin App** | Management and moderation panel to control users, providers, and monitor analytics. | Android |
 
 ---
 
@@ -231,73 +231,73 @@ service cloud.firestore {
 
 #### 🔐 login & Welcome
 <p align="center">
-  <img src="screenshots/snap.png" width="220"/>
-  <img src="screenshots/login.png" width="220"/>
+  <img src="screenshots/users/snap.png" width="220"/>
+  <img src="screenshots/users/login.png" width="220"/>
 </p>
 
 ---
 
 #### 🏠 Home & More
 <p align="center">
-  <img src="screenshots/home.png" width="220"/>
-  <img src="screenshots/dark.png" width="220"/>
-  <img src="screenshots/more.png" width="220"/>
+  <img src="screenshots/users/home.png" width="220"/>
+  <img src="screenshots/users/dark.png" width="220"/>
+  <img src="screenshots/users/more.png" width="220"/>
 </p>
 
 ---
 #### 🏠 Services & Details
 <p align="center">
-  <img src="screenshots/serv.png" width="220"/>
-  <img src="screenshots/prov_services.png" width="220"/>
-  <img src="screenshots/prov_ser.png" width="220"/>
-  <img src="screenshots/prov_ser2.png" width="220"/>
-  <img src="screenshots/map.png" width="220"/>
+  <img src="screenshots/users/serv.png" width="220"/>
+  <img src="screenshots/users/prov_services.png" width="220"/>
+  <img src="screenshots/users/prov_ser.png" width="220"/>
+  <img src="screenshots/users/prov_ser2.png" width="220"/>
+  <img src="screenshots/users/map.png" width="220"/>
 </p>
 
 ---
 
 #### 💬 Wallet 
 <p align="center">
-  <img src="screenshots/Wallet.png" width="220"/>
+  <img src="screenshots/users/Wallet.png" width="220"/>
 </p>
 
 ---
 #### 💬 Chat System
 <p align="center">
-  <img src="screenshots/chat.png" width="220"/>
+  <img src="screenshots/users/chat.png" width="220"/>
 </p>
 
 ---
 
 #### 📅 Booking System
 <p align="center">
-  <img src="screenshots/bok.png" width="220"/>
-  <img src="screenshots/book.png" width="220"/>
+  <img src="screenshots/users/bok.png" width="220"/>
+  <img src="screenshots/users/book.png" width="220"/>
 </p>
 
 ---
 
 #### 💌 Digital Invitations
 <p align="center">
-  <img src="screenshots/Invitations.png" width="220"/>
-  <img src="screenshots/create.png" width="220"/>
-  <img src="screenshots/add.png" width="220"/>
-  <img src="screenshots/qr.png" width="220"/>
+  <img src="screenshots/users/Invitations.png" width="220"/>
+  <img src="screenshots/users/create.png" width="220"/>
+  <img src="screenshots/users/add.png" width="220"/>
+  <img src="screenshots/users/qr.png" width="220"/>
 </p>
 
 ---
 
 #### 🤖 Smart Assistant
 <p align="center">
-  <img src="screenshots/chatbot.png" width="220"/>
+  <img src="screenshots/users/chatbot.png" width="220"/>
 </p>
 
 ---
 
 #### 📞 Contact & Edit profile
 <p align="center">
-  <img src="screenshots/contact.png" width="220"/>
-  <img src="screenshots/acc.png" width="220"/>
+  <img src="screenshots/users/contact.png" width="220"/>
+  <img src="screenshots/users/acc.png" width="220"/>
 </p>
 
 ---
@@ -306,32 +306,32 @@ service cloud.firestore {
 
 #### 🔐 Home & Drawer
 <p align="center">
-  <img src="screenshots/servi.png" width="220"/>
-  <img src="screenshots/drawer.png" width="220"/>
+  <img src="screenshots/providers/servi.png" width="220"/>
+  <img src="screenshots/providers/drawer.png" width="220"/>
 </p>
 
 ---
 
 #### 🛎️ Services Management
 <p align="center">
-  <img src="screenshots/add.png" width="220"/>
-  <img src="screenshots/add2.png" width="220"/>
-  <img src="screenshots/add3.png" width="220"/>
-  <img src="screenshots/edit.png" width="220"/>
+  <img src="screenshots/providers/add.png" width="220"/>
+  <img src="screenshots/providers/add2.png" width="220"/>
+  <img src="screenshots/providers/add3.png" width="220"/>
+  <img src="screenshots/providers/edit.png" width="220"/>
 </p>
 
 ---
 
 #### 📅 Booking Management
 <p align="center">
-  <img src="screenshots/book.png" width="220"/>
+  <img src="screenshots/providers/book.png" width="220"/>
 </p>
 
 ---
 
 #### 💬 Chat
 <p align="center">
-  <img src="screenshots/chat.png" width="220"/>
+  <img src="screenshots/providers/chat.png" width="220"/>
 </p>
 
 
@@ -341,33 +341,33 @@ service cloud.firestore {
 
 #### 🔐  Dashboard
 <p align="center">
-  <img src="screenshots/drawer.png" width="260"/>
-  <img src="screenshots/dash.png" width="260"/>
+  <img src="screenshots/admin/drawer.png" width="260"/>
+  <img src="screenshots/admin/dash.png" width="260"/>
 </p>
 
 ---
 
 #### 👥 Users & Providers Management
 <p align="center">
-  <img src="screenshots/acc.png" width="260"/>
-  <img src="screenshots/services.png" width="260"/>
-  <img src="screenshots/prive.png" width="260"/>
-  <img src="screenshots/prov_serv.png" width="260"/>
+  <img src="screenshots/admin/acc.png" width="260"/>
+  <img src="screenshots/admin/services.png" width="260"/>
+  <img src="screenshots/admin/prive.png" width="260"/>
+  <img src="screenshots/admin/prov_serv.png" width="260"/>
 </p>
 
 ---
 
 #### 💼 Bookings 
 <p align="center">
-  <img src="screenshots/book.png" width="260"/>
+  <img src="screenshots/admin/book.png" width="260"/>
 </p>
 
 ---
 
 #### 🚨 Supper & Notifications
 <p align="center">
-  <img src="screenshots/supp.png" width="260"/>
-  <img src="screenshots/not.png" width="260"/>
+  <img src="screenshots/admin/supp.png" width="260"/>
+  <img src="screenshots/admin/not.png" width="260"/>
 </p>
 
 ---
@@ -406,7 +406,4 @@ Software Engineer & System Architect
 > Building intelligent digital ecosystems with Flutter & Firebase.
 
 
----
-
-<p align="center">✨ Designed & Engineered with passion by Jamal Al-Awadi ✨</p>
 
